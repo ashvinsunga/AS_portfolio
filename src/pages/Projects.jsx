@@ -39,7 +39,7 @@ export const Projects = () => {
             </div>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3" >
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 mr-4" >
             {projects.map((project) => (
               <ProjectCard key={project.id} project={project} />
             ))
