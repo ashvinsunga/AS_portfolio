@@ -6,7 +6,7 @@ import Lottie from "lottie-react"
 export const Contact = () => {
   return (
     <section>
-      <div className="grid grid-cols-1 md:grid-cols-2 items-center max-w-8xl px-6 mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 items-center max-w-8xl px-6 mx-auto h-screen">
         <div className="mx-auto max-w-7xl">
           <div className="max-w-xl">
             <h2 className="text-3xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-4xl">
@@ -34,7 +34,7 @@ export const Contact = () => {
         </div>
 
         <div>
-            <Lottie animationData={Hello} style={{width: "100%"}} />
+            <Lottie animationData={Hello} style={{width: "80%"}} />
         </div>
       </div>
     </section>
