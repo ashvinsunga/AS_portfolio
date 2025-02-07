@@ -5,7 +5,7 @@ import Lottie from "lottie-react"
 
 export const Contact = () => {
   return (
-    <section>
+    <section id="contact">
       <div className="grid grid-cols-1 md:grid-cols-2 items-center max-w-8xl px-6 mx-auto h-screen">
         <div className="mx-auto max-w-7xl">
           <div className="max-w-xl">

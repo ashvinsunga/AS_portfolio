@@ -5,7 +5,7 @@ import { Contact } from "./Contact"
 export const Home = () => {
   return (
     <main>
-      <section className="">
+      <section id="home" className="">
         <div className="flex flex-col md:flex-row items-center max-w-8xl px-5 lg:px-24 py-8 mx-auto h-screen">
           <div className="w-full md:w-2/3 py-8">
             <div className="text-neutral-700 text-xl font-semibold leading-none tracking-tighter">
@@ -21,7 +21,7 @@ export const Home = () => {
                 </p>
             </div>
           </div>
-          <div className="w-full xs:w-1/3 sm:w-2/3 md:w-1/3 ml-10">
+          <div className="w-full xs:w-1/3 sm:w-2/3 md:w-1/3">
             <img src="https://www.svgrepo.com/show/493331/male-programmer-upper-body.svg" className="g-image" />
           </div>
         </div>

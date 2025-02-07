@@ -24,7 +24,7 @@ export const Projects = () => {
 
   return (
     <>
-      <section className="pb-12 lg:pt-[60px] lg:pb-[60px] dark:bg-dark">
+      <section id="projects" className="pb-12 lg:pt-[60px] lg:pb-[60px] dark:bg-dark">
         <div className="container mx-auto">
           <div className="flex flex-wrap mx-4">
             <div className="w-full px-4">
