@@ -29,8 +29,8 @@ export const Projects = () => {
           <div className="flex flex-wrap mx-4">
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[510px] text-center">
-                <h2 className="text-dark mb-3 text-3xl leading-[1.208] font-bold sm:text-4xl md:text-[40px]">
-                  My Projects
+                <h2 className="text-dark mb-3 text-3xl leading-[1.208] font-bold sm:text-4xl md:text-[30px]">
+                  My <span className="text-blue-400">Projects</span>
                 </h2>
                 <p className="text-body-color text-base dark:text-dark-6">
                   Please have a look at my Personal and Collaborative Projects
